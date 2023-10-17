@@ -1,5 +1,5 @@
-# rythmia-main-websites
-This repo houses the working and distribution files for the Rythmia Main and Clean code repos.
+# Rythmia Main Website Files
+This repo houses the working and distribution files for the Rythmia Main and Rythmia Clean code repos.
 
 ### Note: You may encounter difficulties running a straight npm install on Mac OS.
 
