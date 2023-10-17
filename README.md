@@ -17,3 +17,6 @@ Here is the smoothest path forward if so:
 
 Note - there are minified css files that are included in each respective folder's /docs/ which are generated on save / build. There are no source files for these minified css files, so take good care to not remove them. Note that you will need to restore these if any process erroneously removes them.
 
+### Removed files
+Two files were removed from this repo before tracking. They were not being referenced or used anywhere within this code base. They can be retrieved in this folder, which is available to the entire Rythmia organization in Google:
+[Google Drive Folder](https://drive.google.com/drive/folders/1naolMB-l4Z8OtJrY09MLPU1-8dIcD_2o)
