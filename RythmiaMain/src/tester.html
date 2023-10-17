@@ -1,0 +1,306 @@
+
+<style>
+/* A simple reset. */
+*,::before,::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+/* Heydon Pickering’s lobotomized owl. Details: https://bit.ly/1H7MXUD */
+*+* {
+  margin-top: 1rem;
+}
+
+/* Set up fonts, colors and all that jazz. */
+body {
+  background: #f9fdfe;
+  color: #686a69;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.75;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings use a different font because they’re hipsters. */
+h1,h2 {
+  color: #2a2f2c;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  line-height: 1.125;
+}
+
+/* Set up general layout rules for outer containers. */
+.content,.results {
+  width: 90vw;
+  max-width: 550px;
+  margin: 8vh auto;
+}
+
+.content__heading {
+    font-size: 125%;
+  }
+
+.content__lede {
+    margin-top: 0.5rem;
+    font-size: 87.5%;
+  }
+
+.results__heading {
+    font-size: 110%;
+  }
+
+.results__display-wrapper {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #f9fdfe;
+    border: 1px solid #cdcfcf;
+    overflow-x: scroll;
+  }
+
+.contact-form {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 1rem 0 2rem;
+  border-top: 1px solid #cdcfcf;
+  border-bottom: 1px solid #cdcfcf;
+  overflow: hidden;
+}
+
+.contact-form__input-group {
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+  }
+
+.contact-form__label {
+    display: block;
+    color: #414643;
+    font-family: Lato, sans-serif;
+    font-size: 75%;
+    line-height: 1.125;
+  }
+
+.contact-form__label--checkbox-group {
+      display: inline-block;
+      margin-right: 1rem;
+      font-size: 75%;
+    }
+
+.contact-form__label--checkbox,.contact-form__label--radio {
+      display: inline-block;
+      margin-left: 0.25rem;
+    }
+
+.contact-form__input {
+    display: block;
+    margin-top: 0;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #cdcfcf;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    transition: 150ms border-color linear;
+  }
+
+.contact-form__input--checkbox,.contact-form__input--radio {
+      display: inline-block;
+      width: auto;
+    }
+
+.contact-form__input--checkbox~.contact-form__input--checkbox, .contact-form__input--radio~.contact-form__input--radio {
+        margin-left: 1rem;
+      }
+
+.contact-form__input:focus,.contact-form__input:active {
+      border-color: #686a69;
+      outline: 0;
+    }
+
+.contact-form__button {
+    display: block;
+    margin: 0.5rem 1rem 0;
+    padding: 0 1rem 0.125rem;
+    background-color: #686a69;
+    border: 0;
+    color: #f9fdfe;
+    font-family: lato, sans-serif;
+    font-size: 100%;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    transition: 150ms all linear;
+  }
+
+.contact-form__button:hover,.contact-form__button:active,.contact-form__button:focus {
+      background: #2a2f2c;
+      cursor: pointer;
+      outline: 0;
+    }
+</style>
+    
+
+</style>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<form id="my-form" class="content__form leadForm">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="first-name" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="soul-guide-first-name" name="fname">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="last-name" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="last-name" name="lname">
+        </div>
+      </div>
+  
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="terms">
+      <label class="form-check-label" for="terms">I agree to the <a href="terms-privacy.html" class="inline-link">terms</a></label>
+      <input type="hidden" id="" name="webformId" value="0001">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+      <input type="hidden" id="" value="">
+    </div>
+    <button class="leadForm__button" type="submit">Submit</button>
+  </form>
+  
+
+
+
+<!-- <section class="content">
+    <h1 class="content__heading">Send Me a Message</h1>
+    <p class="content__lede">Use this handy contact form to get in touch with me.</p>
+    <form class="content__form contact-form">
+      <div class="contact-form__input-group">
+        <input class="contact-form__input contact-form__input--radio" id="salutation-mr" name="salutation" type="radio" value="Mr."/>
+        <label class="contact-form__label contact-form__label--radio" for="salutation-mr">Mr.</label>
+        <input class="contact-form__input contact-form__input--radio" id="salutation-mrs" name="salutation" type="radio" value="Mrs."/>
+        <label class="contact-form__label contact-form__label--radio" for="salutation-mrs">Mrs.</label>
+        <input class="contact-form__input contact-form__input--radio" id="salutation-ms" name="salutation" type="radio" value="Ms."/>
+        <label class="contact-form__label contact-form__label--radio" for="salutation-ms">Ms.</label>
+      </div>
+      <div class="contact-form__input-group">
+        <label class="contact-form__label" for="name">Full Name</label>
+        <input class="contact-form__input contact-form__input--text" id="name" name="name" type="text"/>
+      </div>
+      <div class="contact-form__input-group">
+        <label class="contact-form__label" for="email">Email Address</label>
+        <input class="contact-form__input contact-form__input--email" id="email" name="email" type="email"/>
+      </div>
+      <div class="contact-form__input-group">
+        <label class="contact-form__label" for="subject">How can I help you?</label>
+        <select class="contact-form__input contact-form__input--select" id="subject" name="subject">
+          <option>I have a problem.</option>
+          <option>I have a general question.</option>
+        </select>
+      </div>
+      <div class="contact-form__input-group">
+        <label class="contact-form__label" for="message">Enter a Message</label>
+        <textarea class="contact-form__input contact-form__input--textarea" id="message" name="message" rows="6" cols="65"></textarea>
+      </div>
+      <div class="contact-form__input-group">
+        <p class="contact-form__label--checkbox-group">Please send me:</p>
+        <input class="contact-form__input contact-form__input--checkbox" id="snacks-pizza" name="snacks" type="checkbox" value="pizza"/>
+        <label class="contact-form__label contact-form__label--checkbox" for="snacks-pizza">Pizza</label>
+        <input class="contact-form__input contact-form__input--checkbox" id="snacks-cake" name="snacks" type="checkbox" value="cake"/>
+        <label class="contact-form__label contact-form__label--checkbox" for="snacks-cake">Cake</label>
+      </div>
+      <input name="secret" type="hidden" value="1b3a9374-1a8e-434e-90ab-21aa7b9b80e7"/>
+      <button class="contact-form__button" type="submit">Send It!</button>
+    </form>
+  </section> -->
+  <div class="results">
+    <h2 class="results__heading">Form Data</h2>
+    <pre class="results__display-wrapper"><code class="results__display"></code></pre>
+  </div>
+  
+  <script src="js/tester.js"></script>
+<!-- <form name="form" >
+    <input type="text" placeholder="Name" v-model="name" size="60"/></div>
+    <input type="text" placeholder="Surname" v-model="surname" size="60"/></div>
+    <input type="submit" value="Save" @click="getPostsViaREST"/>
+</form> -->
+
+<!-- <form id="myForm">
+    <input type="text" placeholder="Name" v-model="name" size="60"/></div>
+    <input type="text" placeholder="Surname" v-model="surname" size="60"/></div>
+    <button type="submit" value="submit">Submit</a></button>
+</form>  -->
+
+<!-- // Javascript below...
+/* $('#myForm').on('submit', function(event) {
+
+    // Stop form submission
+    event.preventDefault();
+
+    // Make endpoint call 1
+    axios.post('http://someplace.com/api/endpoint1', varOutPostDataHere)
+        .then(response => {
+
+            // After call 1 completes, make endpoint call 2
+            axios.post('http://someplace.com/api/endpoint2', varOutPostDataHere)
+                .then(response => {
+
+                    // After call 2 completes, make endpoint call 3
+                    axios.post('http://someplace.com/api/endpoint3', varOutPostDataHere)
+                        .then(response => {
+
+                            // After call 3 completes...
+                            
+                            // Redirect?
+                            window.location.href = 'http://somewhereelse.com';
+
+                            // Or actually submit the form?
+                            $(this).submit();
+
+                        });
+        
+                });
+            
+        });
+
+});
+
+
+  const formElement = document.getElementById("my-form");
+
+  formElement.onsubmit = function(e) {
+    e.preventDefault();
+    let formData = new FormData(formElement);
+    formData.append('action', 'contact-form/send');
+    //formData.append(Craft.csrfTokenName, Craft.csrfTokenValue);
+
+    axios.post('https://secret-spire-96232.herokuapp.com/https://terceroleadapi.azurewebsites.net/api/LeadContact', formData, {
+      headers: {
+        'authorization': 'a3284a7d-31a7-4f01-9b90-69197075a00b',
+        'Content-Type': 'application/json'
+      }
+    })
+    .then(response => {
+      console.log(response)
+    }).catch(error => {
+      console.warn(error);
+    })
+  } --> */
+<!-- </script>
+
+</body>
+</html> -->
+
+   
