@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/custom.min.css" />
+        <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!--endbuild-->
+        <!-- <link rel="stylesheet" href="css/custom.min.css" />-->
         <link rel="icon" href="./img/icon.png" />
         <title>Rythmia Life Advancement Center | #1 Spiritual Retreat</title>
         <meta name="description"
-        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica.">
-        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
+        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica."
+        />
+        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HLZ2JP');
+            (function (w, d, s, l, i) {
+            				w[l] = w[l] || [];
+            				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            				var f = d.getElementsByTagName(s)[0],
+            					j = d.createElement(s),
+            					dl = l != 'dataLayer' ? '&l=' + l : '';
+            				j.async = true;
+            				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            				f.parentNode.insertBefore(j, f);
+            			})(window, document, 'script', 'dataLayer', 'GTM-5HLZ2JP');
         </script>
         <!-- End Google Tag Manager -->
         <!-- Font Icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"
+        />
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- -->
@@ -35,7 +46,7 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HLZ2JP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- top bar and nav-->
@@ -134,22 +145,7 @@
                 </div>
             </div>
         </div>
-        <nav class="newbanner_top ">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-0 text-start d-none d-md-block">
-                        <div class=""></div>
-                    </div>
-                    <div class="col-md-12 col-12 middle-col pt-2 text-center">
-                        <p>Autumn Awakenings: Save $750 when you book on or before September 30th.
-                            CODE: AUTUMN750. Terms apply. <a style="color: white;" href="https://www.rythmialifeadvancement.com/schedule.html"
-                            title="Learn More about this offer-rythmia" target="blank">Learn more!</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <partial src="newsbanner.html"></partial>
         <!-- edit one for the tests -->
         <section class="drawer drawer--left" id="drawer-name" data-drawer-target>
             <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -249,41 +245,44 @@
                 </ul>
             </div>
         </nav>
-        <!-- Modal Testimonial - MBB -->
-        <div class="modal fade" id="modal-testimonial-mbb" tabindex="-1" aria-labelledby="Rythmia Testimonial"
-        aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content modal-video">
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
-                        </button>
-                    </div>
-                    <div class="modal-body p-0 pt-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6MEQVn8f5tY"
-                        title="Rythmia Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    </div>
-                </div>
+    </body>
+
+</html>
+<!-- Modal Testimonial - MBB -->
+<div class="modal fade" id="modal-testimonial-mbb" tabindex="-1" aria-labelledby="Rythmia Testimonial"
+aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content modal-video">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
+                </button>
+            </div>
+            <div class="modal-body p-0 pt-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6MEQVn8f5tY"
+                title="Rythmia Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
         </div>
-        <section class="hero hero--rp hero--tall text-center text-white">
-            <div class="container p-5 position-absolute top-50 start-50 translate-middle">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8">
-                        <p class="caption">Rythmia Presents</p>
-                         <h1 class="display-1">Robert Glover</h1>
-                    </div>
-                </div>
+    </div>
+</div>
+<section class="hero hero--rp hero--tall text-center text-white">
+    <div class="container p-5 position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <p class="caption">Rythmia Presents</p>
+                 <h1 class="display-1">Robert Glover</h1>
             </div>
-            <div class="hero__cta">
-                <div class="hero__texture position-absolute bottom-0 start-0"></div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 p-5">
-                     <h1 class="display-5">Meet Robert Glover</h1>
-                    <!-- <div class="video-holder my-5">
+        </div>
+    </div>
+    <div class="hero__cta">
+        <div class="hero__texture position-absolute bottom-0 start-0"></div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 p-5">
+             <h1 class="display-5">Meet Robert Glover</h1>
+            <!-- <div class="video-holder my-5">
 
         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-testimonial-mbb">
 
@@ -298,46 +297,46 @@
       
 
      </div> -->
-                    <p>Dr. Robert Glover is a relationship specialist, writer, coach, and public
-                        speaker with over 40 years of professional experience. For the last 20
-                        years, Dr. Glover has primarily worked with men, helping them build healthy
-                        relationships and live up to their full potential. The author of the groundbreaking,
-                        No More Mr. Nice Guy and the best-selling Dating Essentials for Men, he
-                        is a prominent figure in the burgeoning worldwide men’s movement. Dr. Glover
-                        is married and lives in Puerto Vallarta, Mexico.</p>
+            <p>Dr. Robert Glover is a relationship specialist, writer, coach, and public
+                speaker with over 40 years of professional experience. For the last 20
+                years, Dr. Glover has primarily worked with men, helping them build healthy
+                relationships and live up to their full potential. The author of the groundbreaking,
+                No More Mr. Nice Guy and the best-selling Dating Essentials for Men, he
+                is a prominent figure in the burgeoning worldwide men’s movement. Dr. Glover
+                is married and lives in Puerto Vallarta, Mexico.</p>
+        </div>
+        <div class="col-md-5 p-5">
+            <div class="lead-image">
+                <img src="img/Robert Glover Photo.JPG" width="100%" alt="Rob Glover" title="Rythmia Presents Robert Glover"
+                />
+            </div>
+             <h6 class="display-6 pt-5 pb-2">Upcoming Events</h6>
+            <!-- Event Card -->
+            <div class="bg-light-orange p-4 mb-4">
+                <p class="caption text-coral">DECEMBER 3 - 10, 2023</p>
+                 <h3>HOW TO REALLY LOVE YOURSELF</h3>
+                <p>It is the most basic human desire to love, be loved, and feel lovable.
+                    Most of us spend our lives looking for love in all the wrong places and
+                    settling for cheap substitutes along the way. We have bought into the myths
+                    of romantic love and sought that one special person to complete us and
+                    satisfy our inner longings for acceptance and connection.</p> <a onclick="showM1()">Read More</a>
+                <br>
+                <div id="showMore1" style="display: none;">
+                    <p>In all of this, we frequently come away feeling cheated, disappointed,
+                        and lonelier than when we began. For many, all we learn from love is how
+                        to defend ourselves from what we desire the most and shoot anybody who
+                        outdraws us.</p>
+                    <p>In this two-part Rythmia presentation, Dr. Robert Glover, relationship
+                        expert and author, will share a simple, ages-old secret for finding lasting
+                        love. In the process, you will learn how to truly love yourself, love others,
+                        and open your heart to the love you desire.</p>
                 </div>
-                <div class="col-md-5 p-5">
-                    <div class="lead-image">
-                        <img src="img/Robert Glover Photo.JPG" width="100%" alt="Rob Glover" title="Rythmia Presents Robert Glover"
-                        />
-                    </div>
-                     <h6 class="display-6 pt-5 pb-2">Upcoming Events</h6>
-                    <!-- Event Card -->
-                    <div class="bg-light-orange p-4 mb-4">
-                        <p class="caption text-coral">DECEMBER 3 - 10, 2023</p>
-                         <h3>HOW TO REALLY LOVE YOURSELF</h3>
-                        <p>It is the most basic human desire to love, be loved, and feel lovable.
-                            Most of us spend our lives looking for love in all the wrong places and
-                            settling for cheap substitutes along the way. We have bought into the myths
-                            of romantic love and sought that one special person to complete us and
-                            satisfy our inner longings for acceptance and connection.</p> <a onclick="showM1()">Read More</a>
-                        <br>
-                        <div id="showMore1" style="display: none;">
-                            <p>In all of this, we frequently come away feeling cheated, disappointed,
-                                and lonelier than when we began. For many, all we learn from love is how
-                                to defend ourselves from what we desire the most and shoot anybody who
-                                outdraws us.</p>
-                            <p>In this two-part Rythmia presentation, Dr. Robert Glover, relationship
-                                expert and author, will share a simple, ages-old secret for finding lasting
-                                love. In the process, you will learn how to truly love yourself, love others,
-                                and open your heart to the love you desire.</p>
-                        </div>
-                        <!--<p><span style="color: #fc7138;">WORKSHOP BENEFIT:&nbsp;</span> </p>-->
-                        <br />
-                        <p class="phone">call <span>+1 (844) 236-5674</span>
-                        </p>
-                    </div>
-                    <!-- Event Card <div class="bg-light-teal p-4">
+                <!--<p><span style="color: #fc7138;">WORKSHOP BENEFIT:&nbsp;</span> </p>-->
+                <br />
+                <p class="phone">call <span>+1 (844) 236-5674</span>
+                </p>
+            </div>
+            <!-- Event Card <div class="bg-light-teal p-4">
 
         <p class="caption text-teal">
 
@@ -358,5 +357,5 @@
         </p>
 
       </div>--></div>
-            </div>
-        </div>
+    </div>
+</div>

@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/custom.min.css" />
+        <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!--endbuild-->
+        <!-- <link rel="stylesheet" href="css/custom.min.css" />-->
         <link rel="icon" href="./img/icon.png" />
         <title>Rythmia Life Advancement Center | #1 Spiritual Retreat</title>
         <meta name="description"
-        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica.">
-        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
+        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica."
+        />
+        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HLZ2JP');
+            (function (w, d, s, l, i) {
+            				w[l] = w[l] || [];
+            				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            				var f = d.getElementsByTagName(s)[0],
+            					j = d.createElement(s),
+            					dl = l != 'dataLayer' ? '&l=' + l : '';
+            				j.async = true;
+            				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            				f.parentNode.insertBefore(j, f);
+            			})(window, document, 'script', 'dataLayer', 'GTM-5HLZ2JP');
         </script>
         <!-- End Google Tag Manager -->
         <!-- Font Icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"
+        />
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- -->
@@ -35,7 +46,7 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HLZ2JP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- top bar and nav-->
@@ -134,22 +145,7 @@
                 </div>
             </div>
         </div>
-        <nav class="newbanner_top ">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-0 text-start d-none d-md-block">
-                        <div class=""></div>
-                    </div>
-                    <div class="col-md-12 col-12 middle-col pt-2 text-center">
-                        <p>Autumn Awakenings: Save $750 when you book on or before September 30th.
-                            CODE: AUTUMN750. Terms apply. <a style="color: white;" href="https://www.rythmialifeadvancement.com/schedule.html"
-                            title="Learn More about this offer-rythmia" target="blank">Learn more!</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <partial src="newsbanner.html"></partial>
         <!-- edit one for the tests -->
         <section class="drawer drawer--left" id="drawer-name" data-drawer-target>
             <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -249,470 +245,473 @@
                 </ul>
             </div>
         </nav>
-        <section class="hero hero--resort hero--tall text-center text-white">
-            <div class="container p-5 position-absolute top-50 start-50 translate-middle">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8">
-                         <h1 class="display-1">The Resort</h1>
-                        <p class="lead">Convenient yet secluded tropical location in beautiful Guanacaste, Costa
-                            Rica</p>
-                    </div>
-                </div>
+    </body>
+
+</html>
+<section class="hero hero--resort hero--tall text-center text-white">
+    <div class="container p-5 position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                 <h1 class="display-1">The Resort</h1>
+                <p class="lead">Convenient yet secluded tropical location in beautiful Guanacaste, Costa
+                    Rica</p>
             </div>
-            <div class="hero__cta">
-                <!-- <div class="hero__texture position-absolute bottom-0 start-0"></div> --></div>
-        </section>
-        <!-- Raffle -->
-        <section class="feature feature--raffle bg-shipibo p-5">
-            <div class="hero__cta">
-                <div class="hero__texture position-absolute top-0 start-0"></div>
-                <div class="hero__texture position-absolute bottom-0 start-0"></div>
-            </div>
-            <div class="container position-relative p-2">
-                <div class="row align-items-end">
-                    <div class="col-md-6 text-center align-self-center ps-2">
-                        <div class="feature__content-center" loading="lazy">
-                             <h3 class="display-6">
+        </div>
+    </div>
+    <div class="hero__cta">
+        <!-- <div class="hero__texture position-absolute bottom-0 start-0"></div> --></div>
+</section>
+<!-- Raffle -->
+<section class="feature feature--raffle bg-shipibo p-5">
+    <div class="hero__cta">
+        <div class="hero__texture position-absolute top-0 start-0"></div>
+        <div class="hero__texture position-absolute bottom-0 start-0"></div>
+    </div>
+    <div class="container position-relative p-2">
+        <div class="row align-items-end">
+            <div class="col-md-6 text-center align-self-center ps-2">
+                <div class="feature__content-center" loading="lazy">
+                     <h3 class="display-6">
 
             Enter to win a transformation vacation
 
           </h3>
-                            <p>We choose a new winner each month.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 align-self-center">
-                        <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
-                        class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
-                            <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
-                            />
-                            <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
-                            />
-                            <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
-                            />
-                            <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="first-name" class="form-label">First Name</label>
-                                        <input id="inf_field_FirstName" class="form-control"
-                                        name="inf_field_FirstName" placeholder="" type="text" />
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="last-name" class="form-label">Last Name</label>
-                                        <input id="inf_field_LastName" class="form-control" name="inf_field_LastName"
-                                        placeholder="" type="text" />
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email address</label>
-                                    <input id="inf_field_Email" class="form-control"
-                                    name="inf_field_Email" placeholder="" type="text" />
-                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                                </div>
-                            </div>
-                            <div class="form-check">
-                                <input type="hidden" id="" name="webformId" value="0001">
-                                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                                <input name="inf_custom_gaid" type="hidden" value="null" />
-                                <input name="inf_custom_utmmedium" type="hidden" value="null" />
-                                <input name="inf_custom_utmsource" type="hidden" value="null" />
-                                <input name="inf_custom_utmcampaign" type="hidden" value="null" />
-                                <input name="inf_custom_utmcontent" type="hidden" value="null" />
-                                <input name="inf_custom_utmterm" type="hidden" value="null" />
-                                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                                <input name="inf_custom_gaid" type="hidden" value="null" />
-                                <input name="inf_custom_PageSource" type="hidden" value="homepage-raffle"
-                                />
-                            </div>
-                            <div class="mt-4 infusion-submit">
-                                <button class="btn btn-primary form__button infusion-recaptcha" id="recaptcha_43ff64cc39aff597a25ecbd26d3f5ae1"
-                                type="submit">Submit</button>
-                            </div>
-                        </form>
-                    </div>
+                    <p>We choose a new winner each month.</p>
                 </div>
             </div>
-        </section>
-        <!-- /Raffle -->
-        <section class="feature feature--map">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5 order-2 order-lg-1 pt-5 pb-5 align-self-center">
-                         <h6 class="display-6">
+            <div class="col-md-6 align-self-center">
+                <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
+                class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
+                    <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
+                    />
+                    <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
+                    />
+                    <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
+                    />
+                    <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="first-name" class="form-label">First Name</label>
+                                <input id="inf_field_FirstName" class="form-control"
+                                name="inf_field_FirstName" placeholder="" type="text" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="last-name" class="form-label">Last Name</label>
+                                <input id="inf_field_LastName" class="form-control" name="inf_field_LastName"
+                                placeholder="" type="text" />
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input id="inf_field_Email" class="form-control"
+                            name="inf_field_Email" placeholder="" type="text" />
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                        <input type="hidden" id="" name="webformId" value="0001">
+                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                        <input name="inf_custom_gaid" type="hidden" value="null" />
+                        <input name="inf_custom_utmmedium" type="hidden" value="null" />
+                        <input name="inf_custom_utmsource" type="hidden" value="null" />
+                        <input name="inf_custom_utmcampaign" type="hidden" value="null" />
+                        <input name="inf_custom_utmcontent" type="hidden" value="null" />
+                        <input name="inf_custom_utmterm" type="hidden" value="null" />
+                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                        <input name="inf_custom_gaid" type="hidden" value="null" />
+                        <input name="inf_custom_PageSource" type="hidden" value="homepage-raffle"
+                        />
+                    </div>
+                    <div class="mt-4 infusion-submit">
+                        <button class="btn btn-primary form__button infusion-recaptcha" id="recaptcha_43ff64cc39aff597a25ecbd26d3f5ae1"
+                        type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /Raffle -->
+<section class="feature feature--map">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 order-2 order-lg-1 pt-5 pb-5 align-self-center">
+                 <h6 class="display-6">
 
           Located in one of the five Blue Zones of the world, where people live happier, longer lives.
 
         </h6>
-                        <p>We’re in the gated community of Hacienda Pinilla. Beautiful Langosta Beach
-                            is nearby and shuttled excursions are included with your stay. Downtown
-                            Tamarindo is a 10-minute cab ride.</p>
-                        <p>Fly into Liberia airport (airport code LIR). There are direct flights
-                            from a number of major cities in the U.S., such as Los Angeles (LAX) and
-                            New York (JFK). The resort is a 1.5 hour ride from the airport and shuttle
-                            rides are available.</p> <a href="https://www.tripadvisor.com/Hotel_Review-g309251-d12154725-Reviews-Rythmia_Life_Advancement_Center-Santa_Cruz_Province_of_Guanacaste.html#MAPVIEW"
-                        class="btn btn-primary" target="_blank">View Map</a>
-                    </div>
-                    <div class="col-lg-7 order-1 order-lg-1">
-                        <img src="img/resort-map.jpg" width="100%" />
-                    </div>
-                </div>
+                <p>We’re in the gated community of Hacienda Pinilla. Beautiful Langosta Beach
+                    is nearby and shuttled excursions are included with your stay. Downtown
+                    Tamarindo is a 10-minute cab ride.</p>
+                <p>Fly into Liberia airport (airport code LIR). There are direct flights
+                    from a number of major cities in the U.S., such as Los Angeles (LAX) and
+                    New York (JFK). The resort is a 1.5 hour ride from the airport and shuttle
+                    rides are available.</p> <a href="https://www.tripadvisor.com/Hotel_Review-g309251-d12154725-Reviews-Rythmia_Life_Advancement_Center-Santa_Cruz_Province_of_Guanacaste.html#MAPVIEW"
+                class="btn btn-primary" target="_blank">View Map</a>
             </div>
-        </section>
-        <section class="feature text-center py-5">
-            <div class="container">
-                 <h6 class="display-6">
+            <div class="col-lg-7 order-1 order-lg-1">
+                <img src="img/resort-map.jpg" width="100%" />
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feature text-center py-5">
+    <div class="container">
+         <h6 class="display-6">
 
       Maloca
 
     </h6>
-                <p>The healing space for Ancient wisdom ceremonies, breathwork, and yoga</p>
-                <div
-                data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6"> <a href="img/resort-maloca-01.jpg" target="_blank" data-caption="Maloka"
-                            data-author="Rythmia">
+        <p>The healing space for Ancient wisdom ceremonies, breathwork, and yoga</p>
+        <div
+        data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6"> <a href="img/resort-maloca-01.jpg" target="_blank" data-caption="Maloka"
+                    data-author="Rythmia">
 
             <img src="img/resort-maloca-01.jpg" class="lazy" loading="lazy" alt="Maloca">
 
           </a>
-                        </div>
-                        <div class="col-6 col-md-3"> <a href="img/resort-maloca-02.jpg" target="_blank" data-caption="Taita Juanito"
-                            data-author="Rythmia">
+                </div>
+                <div class="col-6 col-md-3"> <a href="img/resort-maloca-02.jpg" target="_blank" data-caption="Taita Juanito"
+                    data-author="Rythmia">
 
             <img src="img/resort-maloca-02.jpg" class="lazy" loading="lazy" alt="Taita Juanito">
 
           </a>
-                        </div>
-                        <div class="col-6 col-md-3">
-                            <div class="row g3" style="margin-top: -4px">
-                                <div class="col-12 pb-4"> <a href="img/resort-maloca-04.jpg" target="_blank" data-caption="Maloka"
-                                    data-author="Rythmia">
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="row g3" style="margin-top: -4px">
+                        <div class="col-12 pb-4"> <a href="img/resort-maloca-04.jpg" target="_blank" data-caption="Maloka"
+                            data-author="Rythmia">
 
                 <img src="img/resort-maloca-04.jpg" class="lazy" loading="lazy" alt="Maloca">
 
               </a>
-                                </div>
-                                <div class="col-12"> <a href="img/resort-maloca-05.jpg" target="_blank" data-caption="Maloka"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-12"> <a href="img/resort-maloca-05.jpg" target="_blank" data-caption="Maloka"
+                            data-author="Rythmia">
 
                 <img src="img/resort-maloca-05.jpg" class="lazy" loading="lazy" alt="Maloca">
 
               </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
+                </div>
             </div>
-        </section>
-        <section class="feature text-center py-5 bg-light-teal">
-            <div class="container">
-                 <h6 class="display-6">
+    </div>
+</section>
+<section class="feature text-center py-5 bg-light-teal">
+    <div class="container">
+         <h6 class="display-6">
 
       Roots Restaurant
 
     </h6>
-                <p>Organic, locally-sourced fare</p>
-                <div data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6">
-                            <div class="row g3 pb-4">
-                                <div class="col-6"> <a href="img/resort-roots-02.jpg" target="_blank" data-caption="Maloka"
-                                    data-author="Rythmia">
+        <p>Organic, locally-sourced fare</p>
+        <div data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6">
+                    <div class="row g3 pb-4">
+                        <div class="col-6"> <a href="img/resort-roots-02.jpg" target="_blank" data-caption="Maloka"
+                            data-author="Rythmia">
 
                 <img src="img/resort-roots-02.jpg" class="lazy" loading="lazy" alt="Maloca">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-roots-03.jpg" target="_blank" data-caption="Maloka"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-roots-03.jpg" target="_blank" data-caption="Maloka"
+                            data-author="Rythmia">
 
                 <img src="img/resort-roots-03.jpg" class="lazy" loading="lazy" alt="Maloca">
 
               </a>
-                                </div>
-                            </div>
-                            <div class="row g3">
-                                <div class="col-6"> <a href="img/resort-roots-04.jpg" target="_blank" data-caption="Roots Restuarant"
-                                    data-author="Rythmia">
+                        </div>
+                    </div>
+                    <div class="row g3">
+                        <div class="col-6"> <a href="img/resort-roots-04.jpg" target="_blank" data-caption="Roots Restuarant"
+                            data-author="Rythmia">
 
                 <img src="img/resort-roots-04.jpg" class="lazy" loading="lazy" alt="Roots Restuarant">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-roots-05.jpg" target="_blank" data-caption="Roots Restuarant"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-roots-05.jpg" target="_blank" data-caption="Roots Restuarant"
+                            data-author="Rythmia">
 
                 <img src="img/resort-roots-05.jpg" class="lazy" loading="lazy" alt="Roots Restuarant">
 
               </a>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-12 col-md-6"> <a href="img/resort-roots-01.jpg" target="_blank" data-caption="Roots Restuarant"
-                            data-author="Rythmia">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6"> <a href="img/resort-roots-01.jpg" target="_blank" data-caption="Roots Restuarant"
+                    data-author="Rythmia">
 
             <img src="img/resort-roots-01.jpg" class="lazy" loading="lazy" alt="Roots Restuarant">
 
           </a>
-                        </div>
-                    </div>
                 </div>
-        </section>
-        <section class="feature text-center py-5">
-            <div class="container">
-                 <h6 class="display-6">
+            </div>
+        </div>
+</section>
+<section class="feature text-center py-5">
+    <div class="container">
+         <h6 class="display-6">
 
       Casitas
 
     </h6>
-                <p>Newly renovated, relaxing, tropical-chic rooms</p>
-                <div data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6"> <a href="img/resort-casitas-01.jpg" target="_blank" data-caption="Casitas"
-                            data-author="Rythmia">
+        <p>Newly renovated, relaxing, tropical-chic rooms</p>
+        <div data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6"> <a href="img/resort-casitas-01.jpg" target="_blank" data-caption="Casitas"
+                    data-author="Rythmia">
 
             <img src="img/resort-casitas-01.jpg" class="lazy" loading="lazy" alt="Casitas">
 
           </a>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="row g3 pb-4">
-                                <div class="col-6"> <a href="img/resort-casitas-02.jpg" target="_blank" data-caption="Casitas"
-                                    data-author="Rythmia">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row g3 pb-4">
+                        <div class="col-6"> <a href="img/resort-casitas-02.jpg" target="_blank" data-caption="Casitas"
+                            data-author="Rythmia">
 
                 <img src="img/resort-casitas-02.jpg" class="lazy" loading="lazy" alt="Casitas">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-casitas-03.jpg" target="_blank" data-caption="Casitas"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-casitas-03.jpg" target="_blank" data-caption="Casitas"
+                            data-author="Rythmia">
 
                 <img src="img/resort-casitas-03.jpg" class="lazy" loading="lazy" alt="Casitas">
 
               </a>
-                                </div>
-                            </div>
-                            <div class="row g3">
-                                <div class="col-6"> <a href="img/resort-casitas-04.jpg" target="_blank" data-caption="Casitas"
-                                    data-author="Rythmia">
+                        </div>
+                    </div>
+                    <div class="row g3">
+                        <div class="col-6"> <a href="img/resort-casitas-04.jpg" target="_blank" data-caption="Casitas"
+                            data-author="Rythmia">
 
                 <img src="img/resort-casitas-04.jpg" class="lazy" loading="lazy" alt="Casitas">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-casitas-05.jpg" target="_blank" data-caption="Casitas"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-casitas-05.jpg" target="_blank" data-caption="Casitas"
+                            data-author="Rythmia">
 
                 <img src="img/resort-casitas-05.jpg" class="lazy" loading="lazy" alt="Casitas">
 
               </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-        </section>
-        <section class="feature feature--blue-zone py-5 text-white text-center">
-            <div class="container">
-                <div class="row justify-content-center vh-75">
-                    <div class="col-6 align-self-center">
-                        <p class="lead">Costa Rica is well known for its beautiful plant and animal life, terrific
-                            weather, and its kind and relaxed people. A haven for those seeking respite
-                            and relaxation, Costa Rica is home to one of only five blue zones on the
-                            planet.</p>
-                        <p class="lead">Blue zones are locations where people live the longest, enjoy life the
-                            most, and are healthiest. It's for these reasons that Guanacaste, Costa
-                            Rica was the perfect location for Rythmia.</p>
-                    </div>
-                </div>
             </div>
-        </section>
-        <section class="feature text-center py-5 bg-light-coral">
-            <div class="container">
-                 <h6 class="display-6">
+        </div>
+</section>
+<section class="feature feature--blue-zone py-5 text-white text-center">
+    <div class="container">
+        <div class="row justify-content-center vh-75">
+            <div class="col-6 align-self-center">
+                <p class="lead">Costa Rica is well known for its beautiful plant and animal life, terrific
+                    weather, and its kind and relaxed people. A haven for those seeking respite
+                    and relaxation, Costa Rica is home to one of only five blue zones on the
+                    planet.</p>
+                <p class="lead">Blue zones are locations where people live the longest, enjoy life the
+                    most, and are healthiest. It's for these reasons that Guanacaste, Costa
+                    Rica was the perfect location for Rythmia.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="feature text-center py-5 bg-light-coral">
+    <div class="container">
+         <h6 class="display-6">
 
       Ra Spa
 
     </h6>
-                <p>Health club, gym, spa, massages, mud baths, hot & cold baths, steam sauna</p>
-                <div
-                data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6">
-                            <div class="row g3 pb-4">
-                                <div class="col-6"> <a href="img/resort-spa-02.jpg" target="_blank" data-caption="Ra Spa"
-                                    data-author="Rythmia">
+        <p>Health club, gym, spa, massages, mud baths, hot & cold baths, steam sauna</p>
+        <div
+        data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6">
+                    <div class="row g3 pb-4">
+                        <div class="col-6"> <a href="img/resort-spa-02.jpg" target="_blank" data-caption="Ra Spa"
+                            data-author="Rythmia">
 
                 <img src="img/resort-spa-02.jpg" class="lazy" loading="lazy" alt="Ra Spa">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-spa-03.jpg" target="_blank" data-caption="Ra Spa"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-spa-03.jpg" target="_blank" data-caption="Ra Spa"
+                            data-author="Rythmia">
 
                 <img src="img/resort-spa-03.jpg" class="lazy" loading="lazy" alt="Ra Spa">
 
               </a>
-                                </div>
-                            </div>
-                            <div class="row g3">
-                                <div class="col-6"> <a href="img/resort-spa-04.jpg" target="_blank" data-caption="Ra Spa"
-                                    data-author="Rythmia">
+                        </div>
+                    </div>
+                    <div class="row g3">
+                        <div class="col-6"> <a href="img/resort-spa-04.jpg" target="_blank" data-caption="Ra Spa"
+                            data-author="Rythmia">
 
                 <img src="img/resort-spa-04.jpg" class="lazy" loading="lazy" alt="Ra Spa">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-spa-05.jpg" target="_blank" data-caption="Ra Spa"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-spa-05.jpg" target="_blank" data-caption="Ra Spa"
+                            data-author="Rythmia">
 
                 <img src="img/resort-spa-05.jpg" class="lazy" loading="lazy" alt="Ra Spa">
 
               </a>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-12 col-md-6"> <a href="img/resort-spa-01.jpg" target="_blank" data-caption="Ra Spa"
-                            data-author="Rythmia">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6"> <a href="img/resort-spa-01.jpg" target="_blank" data-caption="Ra Spa"
+                    data-author="Rythmia">
 
             <img src="img/resort-spa-01.jpg" class="lazy" loading="lazy" alt="Ra Spa">
 
           </a>
-                        </div>
-                    </div>
+                </div>
             </div>
-        </section>
-        <section class="feature text-center py-5">
-            <div class="container">
-                 <h6 class="display-6">
+    </div>
+</section>
+<section class="feature text-center py-5">
+    <div class="container">
+         <h6 class="display-6">
 
       Saltwater Pool & Grounds
 
     </h6>
-                <p>Newly renovated pool and relaxing grounds</p>
-                <div data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6"> <a href="img/resort-pool-01.jpg" target="_blank" data-caption="Pool & grounds"
-                            data-author="Rythmia">
+        <p>Newly renovated pool and relaxing grounds</p>
+        <div data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6"> <a href="img/resort-pool-01.jpg" target="_blank" data-caption="Pool & grounds"
+                    data-author="Rythmia">
 
             <img src="img/resort-pool-01.jpg" class="lazy" loading="lazy" alt="Pool & grounds">
 
           </a>
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <div class="row g3 pb-4">
-                                <div class="col-6"> <a href="img/resort-pool-02.jpg" target="_blank" data-caption="Pool & grounds"
-                                    data-author="Rythmia">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="row g3 pb-4">
+                        <div class="col-6"> <a href="img/resort-pool-02.jpg" target="_blank" data-caption="Pool & grounds"
+                            data-author="Rythmia">
 
                 <img src="img/resort-pool-02.jpg" class="lazy" loading="lazy" alt="Pool & grounds">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-pool-03.jpg" target="_blank" data-caption="Pool & grounds"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-pool-03.jpg" target="_blank" data-caption="Pool & grounds"
+                            data-author="Rythmia">
 
                 <img src="img/resort-pool-03.jpg" class="lazy" loading="lazy" alt="Pool & grounds">
 
               </a>
-                                </div>
-                            </div>
-                            <div class="row g3">
-                                <div class="col-6"> <a href="img/resort-pool-04.jpg" target="_blank" data-caption="Pool & grounds"
-                                    data-author="Rythmia">
+                        </div>
+                    </div>
+                    <div class="row g3">
+                        <div class="col-6"> <a href="img/resort-pool-04.jpg" target="_blank" data-caption="Pool & grounds"
+                            data-author="Rythmia">
 
                 <img src="img/resort-pool-04.jpg" class="lazy" loading="lazy" alt="Pool & grounds">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-pool-05.jpg" target="_blank" data-caption="Pool & grounds"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-pool-05.jpg" target="_blank" data-caption="Pool & grounds"
+                            data-author="Rythmia">
 
                 <img src="img/resort-pool-05.jpg" class="lazy" loading="lazy" alt="Pool & grounds">
 
               </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
-        </section>
-        <section class="feature text-center py-5 bg-light-teal">
-            <div class="container">
-                 <h6 class="display-6">
+            </div>
+        </div>
+</section>
+<section class="feature text-center py-5 bg-light-teal">
+    <div class="container">
+         <h6 class="display-6">
 
       Beaches
 
     </h6>
-                <p>Rythmia is surrounded by some of the world’s most beautiful beaches, such
-                    as Playa Langosta, Playa Tamarindo, Playa Avellanas, and many more</p>
-                <div
-                data-pswp class="gallery__photos mt-5">
-                    <div class="row g3">
-                        <div class="col-12 col-md-6">
-                            <div class="row g3 pb-4">
-                                <div class="col-6"> <a href="img/resort-beach-02.jpg" target="_blank" data-caption="Beach"
-                                    data-author="Rythmia">
+        <p>Rythmia is surrounded by some of the world’s most beautiful beaches, such
+            as Playa Langosta, Playa Tamarindo, Playa Avellanas, and many more</p>
+        <div
+        data-pswp class="gallery__photos mt-5">
+            <div class="row g3">
+                <div class="col-12 col-md-6">
+                    <div class="row g3 pb-4">
+                        <div class="col-6"> <a href="img/resort-beach-02.jpg" target="_blank" data-caption="Beach"
+                            data-author="Rythmia">
 
                 <img src="img/resort-beach-02.jpg" class="lazy" loading="lazy" alt="Beach">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-beach-03.jpg" target="_blank" data-caption="Beach"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-beach-03.jpg" target="_blank" data-caption="Beach"
+                            data-author="Rythmia">
 
                 <img src="img/resort-beach-03.jpg" class="lazy" loading="lazy" alt="Beach">
 
               </a>
-                                </div>
-                            </div>
-                            <div class="row g3">
-                                <div class="col-6"> <a href="img/resort-beach-04.jpg" target="_blank" data-caption="Beach"
-                                    data-author="Rythmia">
+                        </div>
+                    </div>
+                    <div class="row g3">
+                        <div class="col-6"> <a href="img/resort-beach-04.jpg" target="_blank" data-caption="Beach"
+                            data-author="Rythmia">
 
                 <img src="img/resort-beach-04.jpg" class="lazy" loading="lazy" alt="Beach">
 
               </a>
-                                </div>
-                                <div class="col-6"> <a href="img/resort-beach-05.jpg" target="_blank" data-caption="Ra Spa"
-                                    data-author="Rythmia">
+                        </div>
+                        <div class="col-6"> <a href="img/resort-beach-05.jpg" target="_blank" data-caption="Ra Spa"
+                            data-author="Rythmia">
 
                 <img src="img/resort-beach-05.jpg" class="lazy" loading="lazy" alt="Beach">
 
               </a>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-12 col-md-6"> <a href="img/resort-beach-01.jpg" target="_blank" data-caption="Beach"
-                            data-author="Rythmia">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6"> <a href="img/resort-beach-01.jpg" target="_blank" data-caption="Beach"
+                    data-author="Rythmia">
 
             <img src="img/resort-beach-01.jpg" class="lazy" loading="lazy" alt="Beach">
 
           </a>
-                        </div>
-                    </div>
+                </div>
             </div>
-        </section>
-        <div class="email-collector email-collector--book-now bg-light-yellow">
-            <section class="p-5 book-banner">
-                <div class="container h-100">
-                    <div class="row justify-content-center text-center h-100">
-                        <div class="col-md-8 align-self-center">
-                             <h3 class="display-5">
+    </div>
+</section>
+<div class="email-collector email-collector--book-now bg-light-yellow">
+    <section class="p-5 book-banner">
+        <div class="container h-100">
+            <div class="row justify-content-center text-center h-100">
+                <div class="col-md-8 align-self-center">
+                     <h3 class="display-5">
 
             Book Your Trip
 
           </h3>
-                            <p>Ready for your transformation vacation? Select an option below and someone
-                                from our team will get back to you within 24 hours.</p> <a href="/book.html"
-                            class="btn btn-primary me-3 mb-3">Book Now</a> <a href="/schedule.html"
-                            class="btn btn-teal mb-3">Schedule a Call</a>
-                        </div>
-                    </div>
+                    <p>Ready for your transformation vacation? Select an option below and someone
+                        from our team will get back to you within 24 hours.</p> <a href="/book.html"
+                    class="btn btn-primary me-3 mb-3">Book Now</a> <a href="/schedule.html"
+                    class="btn btn-teal mb-3">Schedule a Call</a>
                 </div>
-            </section>
-            <!-- <section>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
 
     <div class="container-fluid">
 
@@ -795,108 +794,108 @@
     </div>
 
   </section> -->
-        </div>
-        <footer class="footer text-center bg-light-coral">
-            <div class="footer__texture"></div>
-            <div class="container pb-5 pt-5">
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Main Menu</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <a href="index.html" class="footer__link">Home</a>
-                            </li>
-                            <li class="footer_item"> <a href="experience.html" class="footer__link">Experience</a>
-                            </li>
-                            <li class="footer_item"> <a href="resort.html" class="footer__link">Resort</a>
-                            </li>
-                            <li class="footer_item"> <a href="our-story.html" class="footer__link">Our Story</a>
-                            </li>
-                            <li class="footer_item"> <a href="board-of-directors.html" class="footer__link">Board of Directors</a>
-                            </li>
-                            <li class="footer_item"> <a href="testimonials.html" class="footer__link">Testimonials</a>
-                            </li>
-                            <li class="footer_item"> <a href="guest-speakers.html" class="footer__link">Guest Speakers</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Help</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <a href="book.html" class="footer__link">Book Now</a>
-                            </li>
-                            <li class="footer_item"> <a href="schedule.html" class="footer__link">Schedule a Call</a>
-                            </li>
-                            <li class="footer_item"> <a href="contact.html" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Call today!</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <span class="pNumber">+1 (866) 879-7992</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-3">
-                         <h4 class="display-9">Make your inbox vibrate higher</h4>
-                        <div class="mb-3">
-                            <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
-                            class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
-                                <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
-                                />
-                                <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
-                                />
-                                <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
-                                />
-                                <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
-                                <label for="footer-email" class="form-label">First Name *</label>
-                                <input id="inf_field_FirstName" class="form-control"
-                                name="inf_field_FirstName" placeholder="" type="text" />
-                                <label for="footer-email" class="form-label">Last Name *</label>
-                                <input id="inf_field_LastName" class="form-control"
-                                name="inf_field_LastName" placeholder="" type="text" />
-                                <label for="footer-email" class="form-label">Email address</label>
-                                <input type="email" name="inf_field_Email" class="form-control"
-                                id="footer-email" aria-describedby="emailHelp">
-                        </div>
-                        <input type="hidden" id="" name="webformId" value="0009">
-                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                        <input name="inf_custom_gaid" type="hidden" value="null" />
-                        <input name="inf_custom_utmmedium" type="hidden" value="null" />
-                        <input name="inf_custom_utmsource" type="hidden" value="null" />
-                        <input name="inf_custom_utmcampaign" type="hidden" value="null" />
-                        <input name="inf_custom_utmcontent" type="hidden" value="null" />
-                        <input name="inf_custom_utmterm" type="hidden" value="null" />
-                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                        <input name="inf_custom_gaid" type="hidden" value="null" />
-                        <input name="inf_custom_PageSource" type="hidden" value="footer-newsletterform"
+</div>
+<footer class="footer text-center bg-light-coral">
+    <div class="footer__texture"></div>
+    <div class="container pb-5 pt-5">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Main Menu</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <a href="index.html" class="footer__link">Home</a>
+                    </li>
+                    <li class="footer_item"> <a href="experience.html" class="footer__link">Experience</a>
+                    </li>
+                    <li class="footer_item"> <a href="resort.html" class="footer__link">Resort</a>
+                    </li>
+                    <li class="footer_item"> <a href="our-story.html" class="footer__link">Our Story</a>
+                    </li>
+                    <li class="footer_item"> <a href="board-of-directors.html" class="footer__link">Board of Directors</a>
+                    </li>
+                    <li class="footer_item"> <a href="testimonials.html" class="footer__link">Testimonials</a>
+                    </li>
+                    <li class="footer_item"> <a href="guest-speakers.html" class="footer__link">Guest Speakers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Help</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <a href="book.html" class="footer__link">Book Now</a>
+                    </li>
+                    <li class="footer_item"> <a href="schedule.html" class="footer__link">Schedule a Call</a>
+                    </li>
+                    <li class="footer_item"> <a href="contact.html" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Call today!</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <span class="pNumber">+1 (866) 879-7992</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                 <h4 class="display-9">Make your inbox vibrate higher</h4>
+                <div class="mb-3">
+                    <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
+                    class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
+                        <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
                         />
-                        <button type="submit" class="btn btn-primary">Sign Up for Emails</button>
-                        </form>
-                    </div>
+                        <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
+                        />
+                        <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
+                        />
+                        <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
+                        <label for="footer-email" class="form-label">First Name *</label>
+                        <input id="inf_field_FirstName" class="form-control"
+                        name="inf_field_FirstName" placeholder="" type="text" />
+                        <label for="footer-email" class="form-label">Last Name *</label>
+                        <input id="inf_field_LastName" class="form-control"
+                        name="inf_field_LastName" placeholder="" type="text" />
+                        <label for="footer-email" class="form-label">Email address</label>
+                        <input type="email" name="inf_field_Email" class="form-control"
+                        id="footer-email" aria-describedby="emailHelp">
                 </div>
-                <div class="footer__bottom">&copy; Rythmia Life Advancement Center
-                    <br /> <a href="terms-privacy.html" class="terms-link inline-link">Terms & Privacy</a>
-                </div> <a href="https://www.rythmialifeadvancement.com" class=" footer__logo">
+                <input type="hidden" id="" name="webformId" value="0009">
+                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                <input name="inf_custom_gaid" type="hidden" value="null" />
+                <input name="inf_custom_utmmedium" type="hidden" value="null" />
+                <input name="inf_custom_utmsource" type="hidden" value="null" />
+                <input name="inf_custom_utmcampaign" type="hidden" value="null" />
+                <input name="inf_custom_utmcontent" type="hidden" value="null" />
+                <input name="inf_custom_utmterm" type="hidden" value="null" />
+                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                <input name="inf_custom_gaid" type="hidden" value="null" />
+                <input name="inf_custom_PageSource" type="hidden" value="footer-newsletterform"
+                />
+                <button type="submit" class="btn btn-primary">Sign Up for Emails</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">&copy; Rythmia Life Advancement Center
+            <br /> <a href="terms-privacy.html" class="terms-link inline-link">Terms & Privacy</a>
+        </div> <a href="https://www.rythmialifeadvancement.com" class=" footer__logo">
 
       <img src="img/logo-footer.png" />
 
     </a>
-            </div>
-            <!-- All JS Navbar-->
-            <script>
-                var mainNav = document.getElementById("nav");
-                
-                window.onscroll = function() {
-                  "use strict";
-                  if (document.body.scrollTop >= 30 || document.documentElement.scrollTop >= 30) {
-                    mainNav.classList.add("nav-scroll");
-                  } else {
-                    mainNav.classList.remove("nav-scroll");
-                  }
-                };
-            </script>
-            <script src="js/all.js"></script>
+    </div>
+    <!-- All JS Navbar-->
+    <script>
+        var mainNav = document.getElementById("nav");
+        
+        window.onscroll = function() {
+          "use strict";
+          if (document.body.scrollTop >= 30 || document.documentElement.scrollTop >= 30) {
+            mainNav.classList.add("nav-scroll");
+          } else {
+            mainNav.classList.remove("nav-scroll");
+          }
+        };
+    </script>
+    <script src="js/all.js"></script>
     </body>
-
-</html>
+    
+    </html>

@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/custom.min.css" />
+        <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!--endbuild-->
+        <!-- <link rel="stylesheet" href="css/custom.min.css" />-->
         <link rel="icon" href="./img/icon.png" />
         <title>Rythmia Life Advancement Center | #1 Spiritual Retreat</title>
         <meta name="description"
-        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica.">
-        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
+        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica."
+        />
+        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HLZ2JP');
+            (function (w, d, s, l, i) {
+            				w[l] = w[l] || [];
+            				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            				var f = d.getElementsByTagName(s)[0],
+            					j = d.createElement(s),
+            					dl = l != 'dataLayer' ? '&l=' + l : '';
+            				j.async = true;
+            				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            				f.parentNode.insertBefore(j, f);
+            			})(window, document, 'script', 'dataLayer', 'GTM-5HLZ2JP');
         </script>
         <!-- End Google Tag Manager -->
         <!-- Font Icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"
+        />
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- -->
@@ -35,7 +46,7 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HLZ2JP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- top bar and nav-->
@@ -134,22 +145,7 @@
                 </div>
             </div>
         </div>
-        <nav class="newbanner_top ">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-0 text-start d-none d-md-block">
-                        <div class=""></div>
-                    </div>
-                    <div class="col-md-12 col-12 middle-col pt-2 text-center">
-                        <p>Autumn Awakenings: Save $750 when you book on or before September 30th.
-                            CODE: AUTUMN750. Terms apply. <a style="color: white;" href="https://www.rythmialifeadvancement.com/schedule.html"
-                            title="Learn More about this offer-rythmia" target="blank">Learn more!</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <partial src="newsbanner.html"></partial>
         <!-- edit one for the tests -->
         <section class="drawer drawer--left" id="drawer-name" data-drawer-target>
             <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -249,137 +245,140 @@
                 </ul>
             </div>
         </nav>
-        <section class="hero hero--contact hero--short text-center text-white">
-            <div class="container p-5 position-absolute top-50 start-50 translate-middle">
-                <div class="row justify-content-md-center">
-                    <div class="col">
-                         <h1 class="display-1">Book your trip</h1>
-                        <p>Schedule your free consultation now, our team will provide all the information
-                            you need.</p>
-                    </div>
-                </div>
+    </body>
+
+</html>
+<section class="hero hero--contact hero--short text-center text-white">
+    <div class="container p-5 position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-md-center">
+            <div class="col">
+                 <h1 class="display-1">Book your trip</h1>
+                <p>Schedule your free consultation now, our team will provide all the information
+                    you need.</p>
             </div>
-            <div class="hero__cta">
-                <div class="hero__texture position-absolute bottom-0 start-0"></div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 position-relative sm-p-8">
-                    <div class="pe-5 mt-5">
-                         <h1 class="display-5">
+        </div>
+    </div>
+    <div class="hero__cta">
+        <div class="hero__texture position-absolute bottom-0 start-0"></div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 position-relative sm-p-8">
+            <div class="pe-5 mt-5">
+                 <h1 class="display-5">
 
           BOOK A FREE CONSULT
 
         </h1>
-                        <p>For pricing and availability, please fill out the form below.</p>
-                        <link
-                        href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.5.1/css/pikaday.min.css"
-                        rel="stylesheet" type="text/css" />
-                        <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/83e753d6e6da507abc068fb1a1ce0a5d"
-                        class="infusion-form mb-5" id="inf_form_83e753d6e6da507abc068fb1a1ce0a5d"
-                        method="POST">
-                            <input name="inf_form_xid" type="hidden" value="83e753d6e6da507abc068fb1a1ce0a5d"
-                            />
-                            <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com/book Web Form&#a;(BOOK NOW) UTM"
-                            />
-                            <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
-                            />
-                            <input name="inf_field_LeadSourceId" type="hidden" value="3250L" />
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="first-name" class="form-label">First Name<span class="text-coral">*</span>
-                                        </label>
-                                        <input type="text" class="form-control" id="inf_field_FirstName" name="inf_field_FirstName">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="last-name" class="form-label">Last Name<span class="text-coral">*</span>
-                                        </label>
-                                        <input type="text" class="form-control" id="inf_field_LastName" name="inf_field_LastName">
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Email address<span class="text-coral">*</span>
-                                        </label>
-                                        <input type="email" class="form-control" id="inf_field_Email" name="inf_field_Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="mb-3">
-                                        <label for="phone" class="form-label">Phone<span class="text-coral">*</span>
-                                        </label>
-                                        <input type="number" class="form-control" id="inf_field_Phone1" name="inf_field_Phone1">
-                                    </div>
-                                </div>
-                                <div class="row justify-content-start mb-4">
-                                    <div class="col-1">
-                                        <input type="checkbox" required="" style="height: 25px !important; width: 25px !important;">
-                                    </div>
-                                    <div class="col-10">
-                                        <label class="align-right">Yes! I'd like to receive the Rythmia newsletter.</label>
-                                    </div>
-                                </div>
+                <p>For pricing and availability, please fill out the form below.</p>
+                <link
+                href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.5.1/css/pikaday.min.css"
+                rel="stylesheet" type="text/css" />
+                <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/83e753d6e6da507abc068fb1a1ce0a5d"
+                class="infusion-form mb-5" id="inf_form_83e753d6e6da507abc068fb1a1ce0a5d"
+                method="POST">
+                    <input name="inf_form_xid" type="hidden" value="83e753d6e6da507abc068fb1a1ce0a5d"
+                    />
+                    <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com/book Web Form&#a;(BOOK NOW) UTM"
+                    />
+                    <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
+                    />
+                    <input name="inf_field_LeadSourceId" type="hidden" value="3250L" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="first-name" class="form-label">First Name<span class="text-coral">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="inf_field_FirstName" name="inf_field_FirstName">
                             </div>
-                            <input type="hidden" class="form-control" id="inf_custom_CheckinDate"
-                            name="inf_custom_CheckinDate" value="n/a">
-                            <input type="hidden" id="" name="webformId" value="0008">
-                            <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                            <input name="inf_custom_gaid" type="hidden" value="null" />
-                            <input name="inf_custom_utmmedium" type="hidden" value="null" />
-                            <input name="inf_custom_utmsource" type="hidden" value="null" />
-                            <input name="inf_custom_utmcampaign" type="hidden" value="null" />
-                            <input name="inf_custom_utmcontent" type="hidden" value="null" />
-                            <input name="inf_custom_utmterm" type="hidden" value="null" />
-                            <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                            <input name="inf_custom_gaid" type="hidden" value="null" />
-                            <input name="inf_custom_PageSource" type="hidden" value="bookng-bookingform"
-                            />
-                            <button type="submit" class="btn btn-primary" id="recaptcha_3bf93c9c5874672432afb75de80191e6">Submit</button>
-                        </form>
-                        <div class="row justify-content-start mb-4">
-                            <div class="col-12">
-                                 <h1>Contact Us</h1>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="last-name" class="form-label">Last Name<span class="text-coral">*</span>
+                                </label>
+                                <input type="text" class="form-control" id="inf_field_LastName" name="inf_field_LastName">
                             </div>
-                            <div class="col-12">
-                                 <h3>+1 (866) 879-7992</h3>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address<span class="text-coral">*</span>
+                                </label>
+                                <input type="email" class="form-control" id="inf_field_Email" name="inf_field_Email">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone<span class="text-coral">*</span>
+                                </label>
+                                <input type="number" class="form-control" id="inf_field_Phone1" name="inf_field_Phone1">
                             </div>
                         </div>
                         <div class="row justify-content-start mb-4">
-                            <div class="col-6">
-                                 <h6 class="">Monday - Friday</h6>
-                                <p class="">6 am PST – 6 pm PST</p>
+                            <div class="col-1">
+                                <input type="checkbox" required="" style="height: 25px !important; width: 25px !important;">
                             </div>
-                            <div class="col-6">
-                                 <h6 class="">Saturday - Sunday</h6>
-                                <p class="">6 am PST – 6 pm PST</p>
+                            <div class="col-10">
+                                <label class="align-right">Yes! I'd like to receive the Rythmia newsletter.</label>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- Modal About -->
-                <div class="modal fade" id="modal-about" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                        <div class="modal-content modal-video">
-                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
-                                </button>
-                            </div>
-                            <div class="modal-body p-0 pt-2" id="yt-player">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/pVtGK5I273c"
-                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                            </div>
-                        </div>
+                    <input type="hidden" class="form-control" id="inf_custom_CheckinDate"
+                    name="inf_custom_CheckinDate" value="n/a">
+                    <input type="hidden" id="" name="webformId" value="0008">
+                    <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                    <input name="inf_custom_gaid" type="hidden" value="null" />
+                    <input name="inf_custom_utmmedium" type="hidden" value="null" />
+                    <input name="inf_custom_utmsource" type="hidden" value="null" />
+                    <input name="inf_custom_utmcampaign" type="hidden" value="null" />
+                    <input name="inf_custom_utmcontent" type="hidden" value="null" />
+                    <input name="inf_custom_utmterm" type="hidden" value="null" />
+                    <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                    <input name="inf_custom_gaid" type="hidden" value="null" />
+                    <input name="inf_custom_PageSource" type="hidden" value="bookng-bookingform"
+                    />
+                    <button type="submit" class="btn btn-primary" id="recaptcha_3bf93c9c5874672432afb75de80191e6">Submit</button>
+                </form>
+                <div class="row justify-content-start mb-4">
+                    <div class="col-12">
+                         <h1>Contact Us</h1>
+                    </div>
+                    <div class="col-12">
+                         <h3>+1 (866) 879-7992</h3>
                     </div>
                 </div>
-                <div class="col-lg-6 p-5 bg-light-teal">
-                    <div class="lead-image">
-                        <div class="video-holder"> <a href="#" data-bs-toggle="modal" data-bs-target="#modal-about">
+                <div class="row justify-content-start mb-4">
+                    <div class="col-6">
+                         <h6 class="">Monday - Friday</h6>
+                        <p class="">6 am PST – 6 pm PST</p>
+                    </div>
+                    <div class="col-6">
+                         <h6 class="">Saturday - Sunday</h6>
+                        <p class="">6 am PST – 6 pm PST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal About -->
+        <div class="modal fade" id="modal-about" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content modal-video">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
+                        </button>
+                    </div>
+                    <div class="modal-body p-0 pt-2" id="yt-player">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pVtGK5I273c"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 p-5 bg-light-teal">
+            <div class="lead-image">
+                <div class="video-holder"> <a href="#" data-bs-toggle="modal" data-bs-target="#modal-about">
 
         <button class="btn btn-play btn-white position-absolute bottom-0 start-0 m-3">
 
@@ -388,200 +387,200 @@
         </button>
 
       </a>
-                            <img src="img/video-cover-graham.jpg" class="lazy" width="100%"
-                            loading="lazy" />
-                        </div>
-                    </div>
-                     <h3 class="mt-5 display-6">
+                    <img src="img/video-cover-graham.jpg" class="lazy" width="100%"
+                    loading="lazy" />
+                </div>
+            </div>
+             <h3 class="mt-5 display-6">
 
     15,000+ <span class="header-highlight"><span>Souls Healed</span><span></span></span>
 
   </h3>
-                    <p>Rythmia is the #1 customer-rated specialty lodging in the world on Tripadvisor
-                        with over 2,300 five-star reviews.</p>
-                    <!-- Reviews Slider -->
-                    <div class="glide glide--reviews" id="glide">
-                        <div class="gradient-left"></div>
-                        <div class="gradient-right"></div>
-                        <div class="glide__track" data-glide-el="track">
-                            <ul class="glide__slides pt-5 pb-5">
-                                <li class="glide__slide">
-                                    <img src="img/reviews-avatar-jacqueline-g.jpg" class="avatar" />
-                                     <h4 class="title">
+            <p>Rythmia is the #1 customer-rated specialty lodging in the world on Tripadvisor
+                with over 2,300 five-star reviews.</p>
+            <!-- Reviews Slider -->
+            <div class="glide glide--reviews" id="glide">
+                <div class="gradient-left"></div>
+                <div class="gradient-right"></div>
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides pt-5 pb-5">
+                        <li class="glide__slide">
+                            <img src="img/reviews-avatar-jacqueline-g.jpg" class="avatar" />
+                             <h4 class="title">
 
           I mean, c'mon!
 
         </h4>
-                                    <div class="content">
-                                        <p>“Well over a thousand 5 star reviews of guests gushing about their experience
-                                            at Rythmia and you're still reading reviews? haha... book it!!!</p>
-                                        <p>Just visited in January 2021 and had an incredible really indescribable
-                                            experience. An entourage of love, support, and guidance during and after.</p>
-                                        <p>This is the place to go. Is the journey a walk in the park? No, it's work.
-                                            But it's worth it. Changed my life forever.</p>
-                                    </div>
-                                     <h4 class="author">
+                            <div class="content">
+                                <p>“Well over a thousand 5 star reviews of guests gushing about their experience
+                                    at Rythmia and you're still reading reviews? haha... book it!!!</p>
+                                <p>Just visited in January 2021 and had an incredible really indescribable
+                                    experience. An entourage of love, support, and guidance during and after.</p>
+                                <p>This is the place to go. Is the journey a walk in the park? No, it's work.
+                                    But it's worth it. Changed my life forever.</p>
+                            </div>
+                             <h4 class="author">
 
           Jacqueline G.
 
         </h4>
-                                    <img src="img/logo-trip-advisor.png" class="source" />
-                                </li>
-                                <li class="glide__slide">
-                                    <img src="img/reviews-avatar-Tour20361.jpg" class="avatar" />
-                                     <h4 class="title">
+                            <img src="img/logo-trip-advisor.png" class="source" />
+                        </li>
+                        <li class="glide__slide">
+                            <img src="img/reviews-avatar-Tour20361.jpg" class="avatar" />
+                             <h4 class="title">
 
           MD Review
 
         </h4>
-                                    <div class="content">
-                                        <p>"I am so thankful I came to witness the true physical, emotional , and
-                                            spiritual healing of others and finding such spiritual balance for myself.
-                                            The place is beautiful, the staff are amazing , and the food is delicious.
-                                            I can’t wait to refer people here."</p>
-                                    </div>
-                                     <h4 class="author">
+                            <div class="content">
+                                <p>"I am so thankful I came to witness the true physical, emotional , and
+                                    spiritual healing of others and finding such spiritual balance for myself.
+                                    The place is beautiful, the staff are amazing , and the food is delicious.
+                                    I can’t wait to refer people here."</p>
+                            </div>
+                             <h4 class="author">
 
           Tour20361
 
         </h4>
-                                    <img src="img/logo-trip-advisor.png" class="source" />
-                                </li>
-                                <li class="glide__slide">
-                                    <img src="img/reviews-avatar-linda-m.jpg" class="avatar" />
-                                     <h4 class="title">
+                            <img src="img/logo-trip-advisor.png" class="source" />
+                        </li>
+                        <li class="glide__slide">
+                            <img src="img/reviews-avatar-linda-m.jpg" class="avatar" />
+                             <h4 class="title">
 
           One year later...
 
         </h4>
-                                    <div class="content">
-                                        <p>"I was a guest at Rythmia late June-early July 2019. I wrote a review
-                                            then...and one year later it remains one of the best decisions I've made.
-                                            They advertise that 90+% of guests get their "miracle" and that it lasts.
-                                            I am one of those statistics. It's difficult to define the wonderful opportunity
-                                            they provide--and the work you will have to commit to if you go...but oh
-                                            my, what a blessing. Rythmia is a very special place. I hope you get to
-                                            go, and soon."</p>
-                                    </div>
-                                     <h4 class="author">
+                            <div class="content">
+                                <p>"I was a guest at Rythmia late June-early July 2019. I wrote a review
+                                    then...and one year later it remains one of the best decisions I've made.
+                                    They advertise that 90+% of guests get their "miracle" and that it lasts.
+                                    I am one of those statistics. It's difficult to define the wonderful opportunity
+                                    they provide--and the work you will have to commit to if you go...but oh
+                                    my, what a blessing. Rythmia is a very special place. I hope you get to
+                                    go, and soon."</p>
+                            </div>
+                             <h4 class="author">
 
           Linda M.
 
         </h4>
-                                    <img src="img/logo-trip-advisor.png" class="source" />
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="glide__bullets" data-glide-el="controls[nav]">
-                            <button class="glide__bullet" data-glide-dir="=0"></button>
-                            <button class="glide__bullet" data-glide-dir="=1"></button>
-                            <button class="glide__bullet" data-glide-dir="=2"></button>
-                        </div>
-                    </div>
+                            <img src="img/logo-trip-advisor.png" class="source" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
                 </div>
             </div>
         </div>
-        <footer class="footer text-center bg-light-coral">
-            <div class="footer__texture"></div>
-            <div class="container pb-5 pt-5">
-                <div class="row">
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Main Menu</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <a href="index.html" class="footer__link">Home</a>
-                            </li>
-                            <li class="footer_item"> <a href="experience.html" class="footer__link">Experience</a>
-                            </li>
-                            <li class="footer_item"> <a href="resort.html" class="footer__link">Resort</a>
-                            </li>
-                            <li class="footer_item"> <a href="our-story.html" class="footer__link">Our Story</a>
-                            </li>
-                            <li class="footer_item"> <a href="board-of-directors.html" class="footer__link">Board of Directors</a>
-                            </li>
-                            <li class="footer_item"> <a href="testimonials.html" class="footer__link">Testimonials</a>
-                            </li>
-                            <li class="footer_item"> <a href="guest-speakers.html" class="footer__link">Guest Speakers</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Help</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <a href="book.html" class="footer__link">Book Now</a>
-                            </li>
-                            <li class="footer_item"> <a href="schedule.html" class="footer__link">Schedule a Call</a>
-                            </li>
-                            <li class="footer_item"> <a href="contact.html" class="footer__link">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-6 col-md-3">
-                         <h6 class="footer__heading">Call today!</h6>
-                        <ul class="footer__menu">
-                            <li class="footer_item"> <span class="pNumber">+1 (866) 879-7992</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-3">
-                         <h4 class="display-9">Make your inbox vibrate higher</h4>
-                        <div class="mb-3">
-                            <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
-                            class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
-                                <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
-                                />
-                                <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
-                                />
-                                <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
-                                />
-                                <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
-                                <label for="footer-email" class="form-label">First Name *</label>
-                                <input id="inf_field_FirstName" class="form-control"
-                                name="inf_field_FirstName" placeholder="" type="text" />
-                                <label for="footer-email" class="form-label">Last Name *</label>
-                                <input id="inf_field_LastName" class="form-control"
-                                name="inf_field_LastName" placeholder="" type="text" />
-                                <label for="footer-email" class="form-label">Email address</label>
-                                <input type="email" name="inf_field_Email" class="form-control"
-                                id="footer-email" aria-describedby="emailHelp">
-                        </div>
-                        <input type="hidden" id="" name="webformId" value="0009">
-                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                        <input name="inf_custom_gaid" type="hidden" value="null" />
-                        <input name="inf_custom_utmmedium" type="hidden" value="null" />
-                        <input name="inf_custom_utmsource" type="hidden" value="null" />
-                        <input name="inf_custom_utmcampaign" type="hidden" value="null" />
-                        <input name="inf_custom_utmcontent" type="hidden" value="null" />
-                        <input name="inf_custom_utmterm" type="hidden" value="null" />
-                        <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
-                        <input name="inf_custom_gaid" type="hidden" value="null" />
-                        <input name="inf_custom_PageSource" type="hidden" value="footer-newsletterform"
+    </div>
+</div>
+<footer class="footer text-center bg-light-coral">
+    <div class="footer__texture"></div>
+    <div class="container pb-5 pt-5">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Main Menu</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <a href="index.html" class="footer__link">Home</a>
+                    </li>
+                    <li class="footer_item"> <a href="experience.html" class="footer__link">Experience</a>
+                    </li>
+                    <li class="footer_item"> <a href="resort.html" class="footer__link">Resort</a>
+                    </li>
+                    <li class="footer_item"> <a href="our-story.html" class="footer__link">Our Story</a>
+                    </li>
+                    <li class="footer_item"> <a href="board-of-directors.html" class="footer__link">Board of Directors</a>
+                    </li>
+                    <li class="footer_item"> <a href="testimonials.html" class="footer__link">Testimonials</a>
+                    </li>
+                    <li class="footer_item"> <a href="guest-speakers.html" class="footer__link">Guest Speakers</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Help</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <a href="book.html" class="footer__link">Book Now</a>
+                    </li>
+                    <li class="footer_item"> <a href="schedule.html" class="footer__link">Schedule a Call</a>
+                    </li>
+                    <li class="footer_item"> <a href="contact.html" class="footer__link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-3">
+                 <h6 class="footer__heading">Call today!</h6>
+                <ul class="footer__menu">
+                    <li class="footer_item"> <span class="pNumber">+1 (866) 879-7992</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-3">
+                 <h4 class="display-9">Make your inbox vibrate higher</h4>
+                <div class="mb-3">
+                    <form accept-charset="UTF-8" action="https://yu240.infusionsoft.com/app/form/process/e4b738947c7e29244613981bdcaae20b"
+                    class="infusion-form" id="inf_form_e4b738947c7e29244613981bdcaae20b" method="POST">
+                        <input name="inf_form_xid" type="hidden" value="e4b738947c7e29244613981bdcaae20b"
                         />
-                        <button type="submit" class="btn btn-primary">Sign Up for Emails</button>
-                        </form>
-                    </div>
+                        <input name="inf_form_name" type="hidden" value="Web Form Submitted&#a;Rythmialifeadvancement.com&#a;Footer Newsletter Web Form UTM"
+                        />
+                        <input name="infusionsoft_version" type="hidden" value="1.70.0.580789"
+                        />
+                        <input name="inf_field_LeadSourceId" type="hidden" value="2143L" />
+                        <label for="footer-email" class="form-label">First Name *</label>
+                        <input id="inf_field_FirstName" class="form-control"
+                        name="inf_field_FirstName" placeholder="" type="text" />
+                        <label for="footer-email" class="form-label">Last Name *</label>
+                        <input id="inf_field_LastName" class="form-control"
+                        name="inf_field_LastName" placeholder="" type="text" />
+                        <label for="footer-email" class="form-label">Email address</label>
+                        <input type="email" name="inf_field_Email" class="form-control"
+                        id="footer-email" aria-describedby="emailHelp">
                 </div>
-                <div class="footer__bottom">&copy; Rythmia Life Advancement Center
-                    <br /> <a href="terms-privacy.html" class="terms-link inline-link">Terms & Privacy</a>
-                </div> <a href="https://www.rythmialifeadvancement.com" class=" footer__logo">
+                <input type="hidden" id="" name="webformId" value="0009">
+                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                <input name="inf_custom_gaid" type="hidden" value="null" />
+                <input name="inf_custom_utmmedium" type="hidden" value="null" />
+                <input name="inf_custom_utmsource" type="hidden" value="null" />
+                <input name="inf_custom_utmcampaign" type="hidden" value="null" />
+                <input name="inf_custom_utmcontent" type="hidden" value="null" />
+                <input name="inf_custom_utmterm" type="hidden" value="null" />
+                <input name="inf_custom_KeywordTerm" type="hidden" value="null" />
+                <input name="inf_custom_gaid" type="hidden" value="null" />
+                <input name="inf_custom_PageSource" type="hidden" value="footer-newsletterform"
+                />
+                <button type="submit" class="btn btn-primary">Sign Up for Emails</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">&copy; Rythmia Life Advancement Center
+            <br /> <a href="terms-privacy.html" class="terms-link inline-link">Terms & Privacy</a>
+        </div> <a href="https://www.rythmialifeadvancement.com" class=" footer__logo">
 
       <img src="img/logo-footer.png" />
 
     </a>
-            </div>
-            <!-- All JS Navbar-->
-            <script>
-                var mainNav = document.getElementById("nav");
-                
-                window.onscroll = function() {
-                  "use strict";
-                  if (document.body.scrollTop >= 30 || document.documentElement.scrollTop >= 30) {
-                    mainNav.classList.add("nav-scroll");
-                  } else {
-                    mainNav.classList.remove("nav-scroll");
-                  }
-                };
-            </script>
-            <script src="js/all.js"></script>
+    </div>
+    <!-- All JS Navbar-->
+    <script>
+        var mainNav = document.getElementById("nav");
+        
+        window.onscroll = function() {
+          "use strict";
+          if (document.body.scrollTop >= 30 || document.documentElement.scrollTop >= 30) {
+            mainNav.classList.add("nav-scroll");
+          } else {
+            mainNav.classList.remove("nav-scroll");
+          }
+        };
+    </script>
+    <script src="js/all.js"></script>
     </body>
-
-</html>
+    
+    </html>

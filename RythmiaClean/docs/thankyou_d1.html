@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/custom.min.css" />
+        <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!--endbuild-->
+        <!-- <link rel="stylesheet" href="css/custom.min.css" />-->
         <link rel="icon" href="./img/icon.png" />
         <title>Rythmia Life Advancement Center | #1 Spiritual Retreat</title>
         <meta name="description"
-        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica.">
-        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
+        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica."
+        />
+        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HLZ2JP');
+            (function (w, d, s, l, i) {
+            				w[l] = w[l] || [];
+            				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            				var f = d.getElementsByTagName(s)[0],
+            					j = d.createElement(s),
+            					dl = l != 'dataLayer' ? '&l=' + l : '';
+            				j.async = true;
+            				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            				f.parentNode.insertBefore(j, f);
+            			})(window, document, 'script', 'dataLayer', 'GTM-5HLZ2JP');
         </script>
         <!-- End Google Tag Manager -->
         <!-- Font Icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"
+        />
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- -->
@@ -35,7 +46,7 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HLZ2JP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- top bar and nav-->
@@ -134,22 +145,7 @@
                 </div>
             </div>
         </div>
-        <nav class="newbanner_top ">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-0 text-start d-none d-md-block">
-                        <div class=""></div>
-                    </div>
-                    <div class="col-md-12 col-12 middle-col pt-2 text-center">
-                        <p>Autumn Awakenings: Save $750 when you book on or before September 30th.
-                            CODE: AUTUMN750. Terms apply. <a style="color: white;" href="https://www.rythmialifeadvancement.com/schedule.html"
-                            title="Learn More about this offer-rythmia" target="blank">Learn more!</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <partial src="newsbanner.html"></partial>
         <!-- edit one for the tests -->
         <section class="drawer drawer--left" id="drawer-name" data-drawer-target>
             <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -249,16 +245,19 @@
                 </ul>
             </div>
         </nav>
-        <section class="hero hero--home hero--tall text-center text-white">
-            <div class="container p-5 position-absolute top-50 start-50 translate-middle">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8">
-                         <h1 class="display-1">Thank You For Your Submission</h1>
-                        <p class="lead">Please be sure to check your email for confirmation, you will now be redirected
-                            to the home page</p>
-                        <script>
-                            setTimeout(function(){window.location.href='https://rythmialifeadvancement.com'},850);
-                        </script>
-                    </div>
-                </div>
+    </body>
+
+</html>
+<section class="hero hero--home hero--tall text-center text-white">
+    <div class="container p-5 position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                 <h1 class="display-1">Thank You For Your Submission</h1>
+                <p class="lead">Please be sure to check your email for confirmation, you will now be redirected
+                    to the home page</p>
+                <script>
+                    setTimeout(function(){window.location.href='https://rythmialifeadvancement.com'},850);
+                </script>
             </div>
+        </div>
+    </div>

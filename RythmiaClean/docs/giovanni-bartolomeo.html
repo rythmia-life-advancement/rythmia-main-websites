@@ -6,26 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="css/custom.min.css" />
+        <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="/css/style.css" />
+        <!--endbuild-->
+        <!-- <link rel="stylesheet" href="css/custom.min.css" />-->
         <link rel="icon" href="./img/icon.png" />
         <title>Rythmia Life Advancement Center | #1 Spiritual Retreat</title>
         <meta name="description"
-        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica.">
-        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
+        content="Rythmia is an all-inclusive, luxury retreat center located in beautiful Guanacaste, Costa Rica."
+        />
+        <meta name="keywords" content="Spiritual Retreat, breathwork, spa, mud bath treatments, cost rica"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="language" content="English" />
         <!-- Google Tag Manager -->
         <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-5HLZ2JP');
+            (function (w, d, s, l, i) {
+            				w[l] = w[l] || [];
+            				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            				var f = d.getElementsByTagName(s)[0],
+            					j = d.createElement(s),
+            					dl = l != 'dataLayer' ? '&l=' + l : '';
+            				j.async = true;
+            				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            				f.parentNode.insertBefore(j, f);
+            			})(window, document, 'script', 'dataLayer', 'GTM-5HLZ2JP');
         </script>
         <!-- End Google Tag Manager -->
         <!-- Font Icons -->
-        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+        <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet"
+        />
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
         <!-- -->
@@ -35,7 +46,7 @@
         <!-- Google Tag Manager (noscript) -->
         <noscript>
             <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5HLZ2JP"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
         </noscript>
         <!-- End Google Tag Manager (noscript) -->
         <!-- top bar and nav-->
@@ -134,22 +145,7 @@
                 </div>
             </div>
         </div>
-        <nav class="newbanner_top ">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-12 col-0 text-start d-none d-md-block">
-                        <div class=""></div>
-                    </div>
-                    <div class="col-md-12 col-12 middle-col pt-2 text-center">
-                        <p>Autumn Awakenings: Save $750 when you book on or before September 30th.
-                            CODE: AUTUMN750. Terms apply. <a style="color: white;" href="https://www.rythmialifeadvancement.com/schedule.html"
-                            title="Learn More about this offer-rythmia" target="blank">Learn more!</a>
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <partial src="newsbanner.html"></partial>
         <!-- edit one for the tests -->
         <section class="drawer drawer--left" id="drawer-name" data-drawer-target>
             <div class="drawer__overlay" data-drawer-close tabindex="-1"></div>
@@ -249,41 +245,44 @@
                 </ul>
             </div>
         </nav>
-        <!-- Modal Testimonial - MBB -->
-        <div class="modal fade" id="modal-testimonial-mbb" tabindex="-1" aria-labelledby="Rythmia Testimonial"
-        aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-lg">
-                <div class="modal-content modal-video">
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
-                        </button>
-                    </div>
-                    <div class="modal-body p-0 pt-2">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/6MEQVn8f5tY"
-                        title="Rythmia Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    </div>
-                </div>
+    </body>
+
+</html>
+<!-- Modal Testimonial - MBB -->
+<div class="modal fade" id="modal-testimonial-mbb" tabindex="-1" aria-labelledby="Rythmia Testimonial"
+aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content modal-video">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="button" class="btn btn-lg" data-bs-dismiss="modal"> <i class="lni lni-close"></i>
+                </button>
+            </div>
+            <div class="modal-body p-0 pt-2">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6MEQVn8f5tY"
+                title="Rythmia Testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
             </div>
         </div>
-        <section class="hero hero--rp hero--tall text-center text-white">
-            <div class="container p-5 position-absolute top-50 start-50 translate-middle">
-                <div class="row justify-content-md-center">
-                    <div class="col-md-8">
-                        <p class="caption">Rythmia Presents</p>
-                         <h1 class="display-1">Giovanni Bartolomeo</h1>
-                    </div>
-                </div>
+    </div>
+</div>
+<section class="hero hero--rp hero--tall text-center text-white">
+    <div class="container p-5 position-absolute top-50 start-50 translate-middle">
+        <div class="row justify-content-md-center">
+            <div class="col-md-8">
+                <p class="caption">Rythmia Presents</p>
+                 <h1 class="display-1">Giovanni Bartolomeo</h1>
             </div>
-            <div class="hero__cta">
-                <div class="hero__texture position-absolute bottom-0 start-0"></div>
-            </div>
-        </section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 p-5">
-                     <h1 class="display-5">Meet Giovanni Bartolomeo</h1>
-                    <!-- <div class="video-holder my-5">
+        </div>
+    </div>
+    <div class="hero__cta">
+        <div class="hero__texture position-absolute bottom-0 start-0"></div>
+    </div>
+</section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7 p-5">
+             <h1 class="display-5">Meet Giovanni Bartolomeo</h1>
+            <!-- <div class="video-holder my-5">
 
         <a href="#" data-bs-toggle="modal" data-bs-target="#modal-testimonial-mbb">
 
@@ -298,43 +297,43 @@
       
 
      </div> -->
-                    <p>Giovanni is an entrepreneur and life adventurer who has a passion for
-                        creating deep connections with others and also creating environments for
-                        these types of connections to take place with others.</p>
-                    <p>He travels the world speaking, facilitating workshops and retreats designed
-                        to unlock the innate human potential within us all. He does this using
-                        easy yet effective techniques including breathwork, cold exposure, movement,
-                        fasting and more!</p>
-                    <p>He’s an entrepreneur at heart and loves to create new Ideas and ways to
-                        help improve the planet for not only the people currently living on it
-                        but for those who we will leave it to one day! His most recent project
-                        was creating a Wellness and Float Center in Toronto called Elemental Wellness.
-                        His proudest achievement to date is being a father to his two beautiful
-                        children.</p>
-                </div>
-                <div class="col-md-5 p-5">
-                    <div class="lead-image">
-                        <img src="img/DOL00741.jpg" width="100%" alt="Giovanni Bartolomeo" title="Rythmia Presents Giovanni Bartolomeo"
-                        />
-                    </div>
-                     <h6 class="display-6 pt-5 pb-2">Upcoming Events</h6>
-                    <!-- Event Card -->
-                    <div class="bg-light-orange p-4 mb-4">
-                        <p class="caption text-coral">NOVEMBER 12 - 19, 2023</p>
-                        <p class="caption text-coral">JANUARY 27 - FEBRUARY 3, 2024</p>
-                        <p class="caption text-coral">MAY 25 - JUNE 1, 2024</p>
-                        <p class="caption text-coral">NOVEMBER 9 - 16, 2024</p>
-                         <h3>ELEMENTAL RHYTHM BREAKTHROUGH EXPERIENCE</h3>
-                        <p>Gio will guide participants through the elemental Rhythm Breathwork Experience
-                            during his week at Rythmia. In his Monday class, he will talk about the
-                            power of nature, specifically cold exposure that he learned from his mentor
-                            Wim Hof and various ways to help keep your mind body, and spirit tuned
-                            up to reach their optimal states.</p>
-                        <p>The first session will include an ice bath experience with over 1000 pounds
-                            of ice following a deep breathwork experience and an integration class
-                            during the week to help improve your mindset and your functional breathing
-                            which impacts all aspects of daily life.</p>
-                        <!--<a onclick="showM1()">Read More</a>
+            <p>Giovanni is an entrepreneur and life adventurer who has a passion for
+                creating deep connections with others and also creating environments for
+                these types of connections to take place with others.</p>
+            <p>He travels the world speaking, facilitating workshops and retreats designed
+                to unlock the innate human potential within us all. He does this using
+                easy yet effective techniques including breathwork, cold exposure, movement,
+                fasting and more!</p>
+            <p>He’s an entrepreneur at heart and loves to create new Ideas and ways to
+                help improve the planet for not only the people currently living on it
+                but for those who we will leave it to one day! His most recent project
+                was creating a Wellness and Float Center in Toronto called Elemental Wellness.
+                His proudest achievement to date is being a father to his two beautiful
+                children.</p>
+        </div>
+        <div class="col-md-5 p-5">
+            <div class="lead-image">
+                <img src="img/DOL00741.jpg" width="100%" alt="Giovanni Bartolomeo" title="Rythmia Presents Giovanni Bartolomeo"
+                />
+            </div>
+             <h6 class="display-6 pt-5 pb-2">Upcoming Events</h6>
+            <!-- Event Card -->
+            <div class="bg-light-orange p-4 mb-4">
+                <p class="caption text-coral">NOVEMBER 12 - 19, 2023</p>
+                <p class="caption text-coral">JANUARY 27 - FEBRUARY 3, 2024</p>
+                <p class="caption text-coral">MAY 25 - JUNE 1, 2024</p>
+                <p class="caption text-coral">NOVEMBER 9 - 16, 2024</p>
+                 <h3>ELEMENTAL RHYTHM BREAKTHROUGH EXPERIENCE</h3>
+                <p>Gio will guide participants through the elemental Rhythm Breathwork Experience
+                    during his week at Rythmia. In his Monday class, he will talk about the
+                    power of nature, specifically cold exposure that he learned from his mentor
+                    Wim Hof and various ways to help keep your mind body, and spirit tuned
+                    up to reach their optimal states.</p>
+                <p>The first session will include an ice bath experience with over 1000 pounds
+                    of ice following a deep breathwork experience and an integration class
+                    during the week to help improve your mindset and your functional breathing
+                    which impacts all aspects of daily life.</p>
+                <!--<a onclick="showM1()">Read More</a>
 
 <br><div id="showMore1" style="display: none;">
 
@@ -345,11 +344,11 @@
 </div>
 
 <p><span style="color: #fc7138;">WORKSHOP BENEFIT:&nbsp;</span> </p>-->
-                        <br />
-                        <p class="phone">call <span>+1 (844) 236-5674</span>
-                        </p>
-                    </div>
-                    <!-- Event Card <div class="bg-light-teal p-4">
+                <br />
+                <p class="phone">call <span>+1 (844) 236-5674</span>
+                </p>
+            </div>
+            <!-- Event Card <div class="bg-light-teal p-4">
 
         <p class="caption text-teal">
 
@@ -370,5 +369,5 @@
         </p>
 
       </div>--></div>
-            </div>
-        </div>
+    </div>
+</div>
